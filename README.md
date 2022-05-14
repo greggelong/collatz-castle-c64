@@ -50,3 +50,18 @@ and as Commodore BASIC does not have a built in mod() function
  ```
 
 you can copy and paste into vice c64 I will create another repo with a c64 disk image
+
+
+
+-----
+
+a note on CBM png studio
+
+The studio will make a current .png file to run while programming if you just choose -->
+
+so that png file only points to the most recently compiled .bas program and its name will be PROJECTNAME.png
+
+
+if you want to save the .png file with a name choose to make and name a stand alone .png file 
+
+for upload here

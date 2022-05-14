@@ -19,8 +19,7 @@ and as Commodore BASIC does not have a built in mod() function
  Here is the neighbors function in Commodore BASIC
  
  ```BASIC
- 
- 5 print"S"
+ 5 print"{clear}"
 10 print"collatz neighbors"
 20 input"your room";a
 30 rem check if the room is mod 2
@@ -32,8 +31,7 @@ and as Commodore BASIC does not have a built in mod() function
 80 print"room 2:", a*2
 90 end
 100 rem checking if even room -1 mod3
-110 if(a -1) - int((a-1)/3)*3 =0 then 20
-0
+110 if(a -1) - int((a-1)/3)*3 =0 then 200
 120 rem not 3 n +1 factor only 2 rooms
 130 print"room 1", a*2
 140 print"room 2", a/2
@@ -43,6 +41,7 @@ and as Commodore BASIC does not have a built in mod() function
 220 print"room 2:", a*2
 230 print"room 3:", a/2
 250 end
+ 
 
 
  
